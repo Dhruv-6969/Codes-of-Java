@@ -9,24 +9,23 @@
 //     }
 // }
 
-// class Second{
-//     void myMethod1(){
-//         System.out.println("I am Method 1");
-//     }
+class Second{
+    void myMethod1(){
+        System.out.println("I am Method 1");
+    }
 
-//     void myMethod2(){
-//         System.out.println("I am Method 2");
-//     }
-// }
+    void myMethod2(){
+        System.out.println("I am Method 2");
+    }
+}
 
-// public class MyObject{
-
-//     public static void main(String[] args) {
-//         Second myObj = new Second();
-//         myObj.myMethod1();
-//         myObj.myMethod2();
-//     }
-// }
+public class MyObject{
+    public static void main(String[] args) {
+        Second myObj = new Second();
+        myObj.myMethod1();
+        myObj.myMethod2();
+    }
+}
 
 // public class MyObject{
 
