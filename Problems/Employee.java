@@ -3,6 +3,7 @@ public class Employee{
     int employeeId;
     double salary;
 
+    //constucter
     public Employee(String name, int employeeId, double salary){
         this.name = name;
         this.employeeId = employeeId;
