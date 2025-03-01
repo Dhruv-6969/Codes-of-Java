@@ -10,7 +10,7 @@ public class Method{
         return sum;
     }
 
-    static int age(int x){
+    static int add(int x){
         return x;
     }
 
@@ -19,6 +19,6 @@ public class Method{
         System.out.println(fullName);
         int sum = add(5, 8);
         System.out.println(sum);
-        System.out.println(age(5));
+        System.out.println(add(5));
     }
 }
